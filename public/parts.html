@@ -1,1 +1,67 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bikes SF | Parts</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="..css/style.css" />
+</head>
+<body>
+  <header class="nav-bar">
+    <div class="about-faq">
+      <p class="tagline">Your one stop shop for used and new bike products in San Francisco!</p>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">FAQ</a></li>
+      </ul>
+    </div>
+
+    <div class="logo-search-cart-signin">
+      <h1><a href="index.html" class="logo-link">Bikes SF</a></h1>
+      <input id="search" type="text" placeholder="Search parts..." />
+      <ul class="icon-list">
+        <li>
+          <img
+            src="img/search.png"
+            alt="Search"
+            class="icon"
+            onclick="document.getElementById('search').focus()" />
+        </li>
+        <li><img src="img/cart.png" alt="Cart" class="icon" /></li>
+      </ul>
+    </div>
+
+    <nav class="product-options">
+      <ul class="nav-list">
+        <li><a href="products/bikes.html">Bikes</a></li>
+        <li><a href="products/helmets.html">Helmets</a></li>
+        <li><a href="products/accessories.html">Accessories</a></li>
+        <li><a href="products/parts.html">Parts</a></li>
+        <li><a href="sell.html">Sell</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="buy-page">
+    <h1>Parts</h1>
+    <p class="buy-subtitle">Replacement parts for repairs and upgrades.</p>
+
+    <section class="product-grid">
+      <article class="product-card">
+        <img src="img/brown-road-bike-free.png" alt="Road Wheelset" />
+        <h2>Road Wheelset</h2>
+        <p class="product-price">$120</p>
+        <p class="product-location">Berkeley, CA</p>
+        <p class="product-condition">Condition: Good</p>
+        <p class="product-description">700c wheelset, true and ready to ride.</p>
+        <button class="product-btn" type="button">View Details</button>
+      </article>
+    </section>
+  </main>
+</body>
+</html>
