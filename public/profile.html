@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bikes SF | Profile</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+<header class="nav-bar">
+  <div class="about-faq">
+    <p>Your one stop shop for used and new bike products in San Francisco!</p>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#">FAQ</a></li>
+    </ul>
+  </div>
+
+  <div class="logo-search-cart-signin">
+    <h1><a href="index.html" class="logo-link">Bikes SF</a></h1>
+    <input id="search" type="text" placeholder="Search bikes, parts, and more" />
+    <ul class="icon-list">
+      <li><img src="../img/search.png" class="icon"></li>
+      <li><img src="../img/cart.png" class="icon"></li>
+    </ul>
+  </div>
+
+  <nav class="product-options">
+    <ul class="nav-list">
+      <li><a href="buy.html">Bikes</a></li>
+      <li><a href="helmets.html">Helmets</a></li>
+      <li><a href="accessories.html">Accessories</a></li>
+      <li><a href="parts.html">Parts</a></li>
+      <li><a href="sell.html">Sell</a></li>
+      <li><a href="profile.html">Profile</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="buy-page">
+  <h1>Your Profile</h1>
+  <p class="buy-subtitle">Manage your account details below.</p>
+
+  <section class="product-card" style="max-width: 500px; margin: auto; text-align: center;">
+
+    <img src="../img/brown-road-bike-free.png" 
+         style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; margin-bottom: 15px;">
+
+    <h2 style="margin-bottom: 5px;">Danny Lam</h2>
+    <p style="color: #555; margin-bottom: 20px;">dannylam@example.com</p>
+
+    <button class="product-btn" onclick="window.location.href='edit-profile.html'">
+      Edit Profile
+    </button>
+
+    <button class="product-btn" style="margin-top: 10px; background:#222; color:white;"
+            onclick="window.location.href='login.html'">
+      Log Out
+    </button>
+
+  </section>
+</main>
+
+</body>
+</html>
